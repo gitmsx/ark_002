@@ -8,8 +8,8 @@ public class brickmanager : MonoBehaviour
 {
 
 
-    public int rows=3;
-    public int cols=5;
+    public int rows;
+    public int cols;
     public float spacing;
     public GameObject brickprefab;
 

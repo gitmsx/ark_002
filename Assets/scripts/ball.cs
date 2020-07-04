@@ -5,7 +5,7 @@ using UnityEngine;
 public class ball : MonoBehaviour
 {
 
-    public float speed = 25f;
+    public float speed = 125f;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,9 @@ public class ball : MonoBehaviour
     {
         transform.position = Vector3.zero;
         GetComponent<Rigidbody2D>().velocity = Random.insideUnitCircle.normalized * speed;
-         
+        
+
+
     } 
 
     // Update is called once per frame

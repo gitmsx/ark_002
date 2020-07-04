@@ -1,0 +1,13 @@
+
+C:\unity_0001\ark_003>echo "# ark_002"  1>>README.md 
+
+C:\unity_0001\ark_003>git init 
+Reinitialized existing Git repository in C:/unity_0001/ark_003/.git/
+
+C:\unity_0001\ark_003>git add README.md 
+
+C:\unity_0001\ark_003>git commit -m "first commit" 
+
+C:\unity_0001\ark_003>git remote add origin https://github.com/gitmsx/ark_002.git 
+
+C:\unity_0001\ark_003>git push -u origin master 

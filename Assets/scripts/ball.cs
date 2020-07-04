@@ -17,8 +17,12 @@ public class ball : MonoBehaviour
     public  void respawn()
     {
         transform.position = Vector3.zero;
+        speed = Random.Range(-136.0f, -127.0f);
         GetComponent<Rigidbody2D>().velocity = Random.insideUnitCircle.normalized * speed;
-        
+
+
+
+
 
 
     } 

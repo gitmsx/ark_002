@@ -284,9 +284,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e48ea6371b05ec42a3da32298628f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 9
-  cols: 7
-  spacing: 0
+  rows: 7
+  cols: 15
+  spacing: 0.3
   brickprefab: {fileID: 6925347305041773531, guid: ef0f9d52a3aeea644a2c914159fc6b13,
     type: 3}
 --- !u!4 &198589002
@@ -683,7 +683,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cad9d66cca1d43f45993c712232f5215, type: 3}
-  m_Color: {r: 0.07186722, g: 0.1751747, b: 0.8962264, a: 1}
+  m_Color: {r: 1, g: 0.062745094, b: 0.062745094, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
